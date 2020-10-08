@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create a stylish landing page for your business startup and get leads for the offered services with this HTML landing page template.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Branch_Office</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+	<style>
+        /* class applies to select element itself, not a wrapper element */
+.select-css {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+        
+    */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+/* Hover style */
+.select-css:hover {
+    border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+
+      
+
+/* Set options to normal weight */
+.select-css option {
+    font-weight:normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css {
+    background-position: left .7em top 50%, 0 0;
+    padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select-css:disabled, .select-css[aria-disabled=true] {
+    color: graytext;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+}
+
+.select-css:disabled:hover, .select-css[aria-disabled=true] {
+    border-color: #aaa;
+}
+.side
+{
+    display: inline-block;
+    vertical-align:top;
+}
+
+
+
+            .box{
+                color: #fff;
+                padding: 20px;
+                display: none;
+                margin-top: 20px;
+            }
+            .Pune{ background: #ff0000; }
+            .Bangalore{ background: #228B22; }
+            .Chennai{ background: #0000ff; }
+            .Hydrabad{ background: #ff0000; }
+            .Mumbai{ background: #228B22; }
+            .Baroda{ background: #0000ff; }
+            .Cochin{ background: #ff0000; }
+            .Kolkata{ background: #228B22; }
+            .New_Delhi{ background: #0000ff; }
+            .Visakhapatnam {background: #0000ff; }
+        </style>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("select").change(function(){
+                $(this).find("option:selected").each(function(){
+                    var optionValue = $(this).attr("value");
+                    if(optionValue){
+                        $(".box").not("." + optionValue).hide();
+                        $("." + optionValue).show();
+                    } else{
+                        $(".box").hide();
+                    }
+                });
+            }).change();
+            $(function() {
+  // choose target dropdown
+  var select = $('select');
+  select.html(select.find('option').sort(function(x, y) {
+    // to change to descending order switch "<" for ">"
+    return $(x).text() > $(y).text() ? 1 : -1;
+  }));
+
+  // select default item after sorting (first item)
+  // $('select').get(0).selectedIndex = 0;
+});
+        
+    });
+    </script>
+    
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+
+        <!-- Image Logo -->
+    <img src="images/Elomatic pvt.ltd.gif" alt="alternative">
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#header">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#services">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#pricing">Cerfications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#slider-1">Clients</a>
+                </li>
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                        <a class="nav-link page-scroll" href="index.html#about">About us</a>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="index.html#contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="branchoffice.html"><span class="item-text">Branch Offices</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="globalbusiness.html"><span class="item-text">Global Business Division</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="domestic_dealers.html"><span class="item-text">Domestic Dealers</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="http://localhost/co2/index.php/Crud/savedata"><span class="item-text">Enquiry Forms</span></a>
+                        </div>
+                    </li>
+            </ul>
+            
+            
+        </div>
+        <img src="images/poonawallagroup1.gif">
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+ `
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Privacy Policy</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+        <!-- Header -->
+
+        
+        
+        <header id="header" class="ex-header">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>GET IN TOUCH WITH US</h1>
+                            <h2>If you have comments or queries, write to us and we’ll contact you as soon as we can.</h2>
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                    <img src="images/location.png" height="70px" width="70px">
+                    <h3>Registered Office</h3>
+                    <p>Head Office
+                            212/2, Hadapsar, Off Soli Poonawalla Road,
+         Pune 411 028
+         India<br>
+         Tel: 91-20-2699 3900, 2699 3904<br>
+         Fax: 91-20-2699 3921<br>
+         E-Mail: elomatic@poonawallagroup.com<br>
+         Contact Person: Mr. Sanjay Kulkarni<br>
+                                    Director - Domestic Sales
+         </p>
+         <div class="side"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.5615242312356!2d73.94399651436852!3d18.50351027452629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c05b4ce72dff%3A0x80db0d4a170b8542!2sSerum%20Institute%20of%20India%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1598251988378!5m2!1sen!2sin" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div> 
+ 
+                    
+            <select class="select-css">
+                <option>For Branch Office Choose City</option>
+                <option value="Pune">PUNE</option>
+                <option value="Bangalore">BANGLORE</option>
+                <option value="Chennai">CHENNAI</option>
+                <option value="Hydrabad">HYDRABAD</option>
+                <option value="Mumbai">MUMBAI</option>
+                <option value="Baroda">BARODA</option>
+                <option value="Cochin">COCHIN</option>
+                <option value="Kolkata">KOLKATA</option>
+                <option value="New_Delhi">NEW DELHI</option>
+                <option value="Visakhapatnam">VISAKHAPATNAM</option>
+            </select>
+        
+            <div class="Pune box"><h2>Address</h2>94/1, Manjari
+                    Off Soli Poonawalla Road,<br>
+                    Pune - 412 307<br>
+                    Tel: 020-26993900<br>
+                    Fax: 020-26993921<br>
+                    E-Mail : poona@poonawallagroup.com
+                </div>
+        <div class="Bangalore box">
+            <h2>Address:</h2>No. 119, Sylvestra Arcade.<br>
+            1st Floor, East Park Road,<br>
+            11th Cross, Malleswaram,<br>
+            Bangalore- 560 003<br>Tel.: 080-23463085<br>
+            Telefax.: 080-23465513<br>E-Mail : bangalore@poonawallagroup.com</div>
+        <div class="Chennai box"><h2>Address</h2>New No. 1B, Saraswathi Street,<br>
+            Mahalingapuram, <br>
+            Nungambakkam<br>
+            Chennai- 600 034<br>Tel: 044-28170323<br>
+            Telefax: 044-28170324<br>E-Mail : chennai@poonawallagroup.com</div>
+	        
+                
+                <div class="Hydrabad box">
+                    <h2>Address</h2>
+                    H. No. 6-2-1/15, Flat No. 303,<br>
+H.G.H. Residency,<br>
+Beside Seha Hospital Lane, Lakdi-ka-Pool,<br>
+Hyderabad- 500 004<br>
+Tel: 040-23221375 / 23221400<br>
+Fax: 040-23309982<br>
+E-Mail : hyderabad@poonawallagroup.com
+
+                </div>
+                <div class="Mumbai box">
+                    <h2>Address</h2>
+                    1010 Filix, 10th Floor,<br>
+Opposite Asian Paints, L B S Marg,<br>
+Bhandup  (West)<br>
+Mumbai - 400 078<br>
+Tel: 022-25953965 / 66<br>
+E-Mail : mumbai@poonawallagroup.com
+
+
+                </div>
+                <div class="Baroda box">
+                    <h2>Address</h2>
+                    17-A, 2nd Floor,  Nutan Bharat Society,<br>
+                    Near Nutan Bharat Club,<br>
+                    Alkapuri,<br>
+                    Baroda- 390 007<br>
+                    Tel: 0265-2324341 / 2324337<br>
+                    Telefax: 0265-2324271<br>
+                    E-Mail : baroda@poonawallagroup.com
+                    
+
+
+                </div>
+                <div class="Cochin box">
+                    <h2>Address</h2>
+                    NO: 5/522B, Neriyakkal House,<br>
+Pukkattupadi Road, Unichira,<br>
+Thrikkakara PO.,<br>
+Cochin - 682 021<br>
+Mob: 9446575011<br>
+E-Mail : cochin@poonawallagroup.com
+
+
+
+                </div>
+                <div class="Kolkata box">
+                    <h2>Address</h2>
+                    3rd Floor, 21/A, Kavi Bharati Sarani<br>
+                    (formerly Lake Road), Lake Market,<br>
+                    Opposite to Charu Chandra College,<br>
+                    Kolkata - 700 029<br>
+                    Tel: 033-24199281 / 24199282<br>
+Fax: 033-24199283<br>
+E-Mail : kolkata@poonawallagroup.com
+
+
+
+                </div>
+                <div class="New_Delhi box">
+                    <h2>Address</h2>
+                    601, Siddhartha Building,<br>
+96 Nehru Place,<br>
+New Delhi- 110 019<br>
+Tel: 011-46514500-5 & 6<br>
+Fax: 011-46514526<br>
+E-Mail : delhi@poonawallagroup.com
+
+
+                </div>
+                <div class="Visakhapatnam box">
+                    <h2>Address</h2>
+                    Door No. 39-20-40/1/3, First Floor,<br>
+Madhavadhara
+Visakhapatnam - 530 007<br>
+Tel: 0891-2501455<br>
+Fax: 0891-2500799<br>
+E-Mail : vizag@poonawallagroup.com
+
+
+
+                </div>
+            </header> <!-- end of ex-header -->
+            <!-- end of header -->
+        
+            
+
+    
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 Mr.Sandeep Garge All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    
+     
+            
+</body>
+</html>
+    
+    
+  

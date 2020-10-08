@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create a stylish landing page for your business startup and get leads for the offered services with this HTML landing page template.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Domestic_Dealers</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+	<style>
+        /* class applies to select element itself, not a wrapper element */
+.select-css {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+        
+    */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+/* Hover style */
+.select-css:hover {
+    border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+
+/* Set options to normal weight */
+.select-css option {
+    font-weight:normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css {
+    background-position: left .7em top 50%, 0 0;
+    padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select-css:disabled, .select-css[aria-disabled=true] {
+    color: graytext;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+}
+
+.select-css:disabled:hover, .select-css[aria-disabled=true] {
+    border-color: #aaa;
+}
+
+
+            .box{
+                color: #fff;
+                padding: 20px;
+                display: none;
+                margin-top: 20px;
+            }
+            .pune{ background-color: sienna}
+            .bangalore{ background: #228B22; }
+            .chennai{ background: #0000ff; }
+            .ahmednagar{background-color: cornflowerblue;}
+            .hydrabad{ background: #ff0000; }
+            .mumbai{ background: #228B22; }
+            .baroda{ background: #0000ff; }
+            .cochin{ background: #ff0000; }
+            .kolkata{ background: #228B22; }
+            .delhi{ background: #0000ff; }
+            .vizag {background: #0000ff; }
+            .Ahmadabad{background-color: coral}
+            .chhattisgarh{background-color: orangered}
+            .mumbai1{background-color: orchid}
+            .bihar{background-color: peru}
+            .nasik{background-color: plum}
+        .nayveli{background-color: sienna}
+        .surat{background-color: steelblue}
+        .lucknow{background-color: yellowgreen}
+        .jharkhand{background-color: yellow}
+        .kota{background-color: teal}
+        .indore{background-color: chocolate}
+        .nagpur{background-color:firebrick}
+        .punjab{background-color: darkorange}
+        .up{background-color: darkkhaki}
+        .rudrapur{background-color: lightseagreen}
+        .kokan{background-color: lime}
+        .vijaywada{background-color: mediumpurple}
+        .jamshedpur{background-color: navajowhite}
+        .hubli{background-color: pink}
+        .vadodara{background-color: crimson}
+        .raigargh{background-color: tan}
+        </style>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("select").change(function(){
+                $(this).find("option:selected").each(function(){
+                    var optionValue = $(this).attr("value");
+                    if(optionValue){
+                        $(".box").not("." + optionValue).hide();
+                        $("." + optionValue).show();
+                    } else{
+                        $(".box").hide();
+                    }
+                });
+            }).change();
+            $(function() {
+  // choose target dropdown
+  var select = $('select');
+  select.html(select.find('option').sort(function(x, y) {
+    // to change to descending order switch "<" for ">"
+    return $(x).text() > $(y).text() ? 1 : -1;
+  }));
+
+  // select default item after sorting (first item)
+  // $('select').get(0).selectedIndex = 0;
+});
+        });
+        </script>
+	<!-- Favicon  -->
+    
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+
+        <!-- Image Logo -->
+        <img src="images/Elomatic pvt.ltd.gif" alt="alternative">
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#header">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#services">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#pricing">Cerfications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="index.html#slider-1">Clients</a>
+                </li>
+
+                <!-- Dropdown Menu -->          
+                <li class="nav-item dropdown">
+                        <a class="nav-link page-scroll" href="index.html#about">About us</a>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="index.html#contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="branchoffice.html"><span class="item-text">Branch Offices</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="globalbusiness.html"><span class="item-text">Global Business Division</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="domestic_dealers.html"><span class="item-text">Domestic Dealers</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="http://localhost/co2/index.php/Crud/savedata"><span class="item-text">Enquiry Forms</span></a>
+                        </div>
+                    </li>
+            </ul>
+            
+            
+        </div>
+        <img src="images/poonawallagroup1.gif">
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+ 
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Privacy Policy</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+        <!-- Header -->
+
+        
+        
+        <header id="header" class="ex-header">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>GET IN TOUCH WITH US</h1>
+                            <h2>If you have comments or queries, write to us and we’ll contact you as soon as we can.</h2>
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                    <img src="images/location.png" height="70px" width="70px">
+                    <h3>Domestic Dealers</h3>
+                    
+            <select class="select-css">
+                <option>For Domestic Dealers Choose City</option>
+                <option value="Ahmadabad">AHMEDABAD</option>
+                <option value="bangalore">BANGLORE</option>
+                <option value="chhattisgarh">CHHATTISGARH</option>
+                <option value="cochin">COCHIN</option>
+                <option value="delhi">DELHI(DELHI & NCR)</option>
+                <option value="indore">INDORE</option>
+                <option value="jharkhand">JHARKHAND(Bokaro)</option>
+                <option value="kolkata">KOLKATA</option>
+                <option value="kota">KOTA(Rajasthan)</option>
+                <option value="mumbai">MUMBAI</option>
+                <option value="nagpur">NAGPUR</option>
+                <option value="nayveli">NEYVELI</option>
+                <option value="pune">PUNE</option>
+                <option value="raigargh">RAIGARGH</option>
+                <option value="surat">SURAT, ANKALESHWAR, VAPI</option>
+                <option value="vadodara">VADODARA</option>
+                <option value="vizag">VIZAG</option>
+                <option value="ahmednagar">AHMEDNAGAR DISTRICT</option>
+                <option value="baroda">BARODA</option>
+                <option value="punjab">CHANDIGARH (Punjab & Himachal Pradesh)</option>
+                <option value="chennai">CHENNAI</option>
+                <option value="hubli">HUBLI</option>
+                <option value="hydrabad">HYDERABAD</option>
+                <option value="jamshedpur">JAMSHEDPUR</option>
+                <option value="bihar">KAHELAGAON (BIHAR)</option>
+                <option value="kokan">KONKAN REGION</option>
+                <option value="lucknow">LUCKNOW (Uttar Pradesh)</option>
+                <option value="nasik">NASIK, DHULE & JALGAON Region</option>
+                <option value="rudrapur">RUDRAPUR (Uttarakhand)</option>
+                <option value="up">MUZAFFARNAGAR(Uttarakhand & Western UP)</option>
+                <option value="vijaywada">VIJAYWADA & VIZAG</option>
+                
+                
+
+            </select>
+        
+            <div class="Ahmadabad box">
+                <h2>Address</h2>
+                ACQUITECH ENGINEERS Pvt. Ltd.
+                A-407, 4th Floor, Premium House,
+                Near Gandhigram Railway Station,
+                Navrangpura, Ahmedabad - 380 009<br>
+                Tel:  079-26574825 / 5363 / 6650<br>
+                Fax: 079-26581826<br>
+
+                E-Mail: intervalve@acquitech.com<br>
+                Mr. Bharat Shah
+            </div>
+            <div class="bangalore box">
+                <h2>Address</h2>
+                GENERAL HARDWARE & INDUSTRIAL STORES
+                19/2, Malavalli Rama Rao Lane, PO Box 6900,
+                Bangalore 560 002<br>
+                Tel:  080-22220670 / 41141155 / 41324636<br>
+                Fax: 080-22223481<br>
+                E-Mail: yusufzaveri@gmail.com<br>
+                Mr. Yusuf S. Zaveri
+            </div>
+            <div class="chhattisgarh box">
+                <h2>Address</h2>
+                SHIV SHAKTI TRADERS
+                HIG-25, Sardar Vallabh Bhai Patel Nagar,
+                Jamnipali, Korba,
+                Chhattisgarh - 495 450<br>
+                Tel:  7509008900<br>
+                Mob: 7587137371 / 7828438619<br>
+                E-Mail: pavitrachouksey@gmail.com<br>
+                Mr. Pavitra Chouksey
+            </div>
+            <div class="cochin box">
+                <h2>Address</h2>
+                FLUIDLINE ENGINEERING COMPANY
+                P.B. No. 3576, 40 / 7059,
+                Ratna Kala Building, Near T.D. Temple, T.D. Road
+                Ernakulam, Cochin - 682 035 <br>
+                Tel: 0484-2383339 / 2362969<br>
+                Fax: 0484-2383339<br>
+                Mob: 9847266254<br>
+                E-Mail: huzefa_fec@rediffmail.com	<br>
+                Mr. Huzefa M. M.
+            </div><div class="delhi box">
+                <h2>Address</h2>
+                ASAN ENGINEERS Pvt. Ltd.
+B-34, Dharamshala Road,
+Sulthanpur Colony,
+New Delhi - 110 030<br>
+Tel: 011-26806062 / 26806063<br>
+Fax: 011-26806062<br>
+E-Mail: asanengineers@gmail.com<br>
+Mr. Atin Vats
+            </div><div class="delhi box">
+                <h2>Address</h2>
+                KANSAL PIPE FITTINGS CO.
+                4971 Bazar Sirkiwalan, Hauzqazi,
+                Delhi -110 006<br>
+                Tel: 011-23233155 / 23233156<br>
+                Mob: 9811089870 / 9996632761<br>
+                E-Mail: kansal_pipe2003@yahoo.co.in<br>
+                Mr. Sanjeev Gupta /  Mr. Gagan Gupta
+            </div><div class="hydrabad box">
+                <h2>Address</h2>
+                DERAZ ENGINEERS
+6-3-1177/90, Deraz House
+BS Maktha, Begumpet,
+Mapusa, Bardez,
+Hyderabad 500 016<br>
+Tel: 040-23402442 / 234067843 / 23404732<br>
+Fax: 040-23412165<br>
+E-Mail: sales@deraz.in
+            </div><div class="hydrabad box">
+                <h2>Address</h2>
+                MAHESH TRADING CORPORATION
+4-4-123, Hill Street,
+Secunderabad 500 003<br>
+Tel: 040-27712087 / 27712227<br>
+Fax: 040-27712228 ; Mob: 9849002060<br>
+E-Mail: mtchardware@yahoo.com<br>
+Mr. Mahesh Agarwal
+
+            </div><div class="indore box">
+                <h2>Address</h2>
+                SHAH MARKETING
+401, Alankar Point,
+Geeta Bhavan Square,
+Indore 452 001
+Madhya Pradesh<br>
+Tel: 0731-2497929 / 2498929 / 2494928<br>
+E-Mail: sales@shahmarketing.co.in<br>
+Mr. Sapan Shah
+            </div><div class="jharkhand box">
+                <h2>Address</h2>
+                INDO-TECH
+                Main Road Chas
+                Bokaro Steel City -827 013
+                Jharkhand<br>
+                Tel: 9830251267<br>
+                E-Mail: indotech.bk@gmail.com<br>
+                Mr. Dinesh Agarwal
+            </div><div class="kolkata box">
+                <h2>Address</h2>
+                S M TRADING CO.
+                20 Netaji Subhas Road,
+                Kolkata - 700 001
+                West Bengal<br>
+                 Tel: 033 22301731 / 22302082<br>
+                Mob: 8013438034<br>
+                E-Mail: smtradingvalves@gmail.com<br>
+                Mr. Souradeep Bhattacharjee
+            </div><div class="kota box">
+                <h2>Address</h2>
+                V TRADE SERVICES
+                5-L-8, Mahaveer Nagar III,
+                Kota,
+                Rajasthan - 324 005<br>
+                Tel: 0744-2475202 / 2475909<br>
+Fax: 0744-2475377 ; Mob: 9829552302<br>
+E-Mail: vtrade@vtradeservices.com<br>
+Mr. Sunil Nair
+
+
+            </div>
+            <div class="mumbai box">
+                <h2>Address</h2>
+                ENERGY ECONOMICS
+                11, Shiv Plaza, Ground Floor,
+                Behind Gala Prov. Store,
+                Station (old Fatak) Road, Kandivali (West)
+                Mumbai 400 067<br>
+
+                Tel: 022-28627169<br>
+                Fax: 022-28628392 ; Mob. 9869251486<br>
+                E-Mail: energyecono@gmail.com<br>
+                Mr. Paras Shah
+            </div>
+            <div class="nagpur box">
+                <h2>Address</h2>
+                ASKI HI-TECH MARKETING
+Shlok Palace, 29,
+Baji Prabhu Deshpande Nagar,
+Behind Nelco Society, Near Subhash Nagar,
+Nagpur - 440 022<br>
+Mob:  8055156223 / 9373104007<br>
+E-Mail: sanjay_sood_2000@yahoo.com<br>
+Mr. Sanjay Sood
+            </div>
+            <div class="nayveli box">
+                <h2>Address</h2>
+                K. S. KRISHNA PRIYA
+                'Sampige' No. 6 / 378,
+                Cuddalore Main Road,
+                Neyveli - 607 802
+                Tamil Nadu<br>
+                Tel: 04142-262768<br>
+                Mob: 9443262768<br>
+                E-Mail: kayeskay521@gmail.com<br>
+                Mr. K. S. Krishna Priya
+            </div>
+            <div class="pune box">
+                <h2>Address</h2>
+                CELESTE TRADING CORPORATION
+                7, Sandesh Society,
+                Salisbury Park,
+                Pune - 411 037<br>
+                Tel: 020-24266852<br>
+                Fax: 020-24266852 ; Mob: 9422029282<br>
+                E-Mail: celestetrading@gmail.com<br>
+                Mr. Vijay Shah
+            </div><div class="raigargh box">
+                <h2>Address</h2>
+                SUMAN IND-AGRO SALES Pvt. Ltd.
+                Near Krishnavihar Colony,
+                Dhimrapur,
+                Raigargh (CG) - 496 0001<br>
+                Tel : 07762-232828<br>
+Fax: 07762-232828<br>
+E-Mail: suman_sales@rediffmail.com<br>
+Mr. Pratap Naik
+            </div><div class="surat box">
+                <h2>Address</h2>
+                SN VALVES & AGENCIES
+                Shop No. 30, 1st Floor,
+                200 / Service Complex, GIDC
+                Pandesara,
+                Dist. Surat - 394 221<br>
+                Tel:  0261-2894876 / 2896227<br>
+Fax: 0261-2892217 ; Mob: 9904000336<br>
+E-Mail: snvalves@yahoo.co.in<br>
+Mr. Rajesh Choudhary
+            </div><div class="vadodara box">
+                <h2>Address</h2>
+                INDUSTRIAL ENTERPRISES
+307, Silver Oak Complex, Productivity Road,
+Near Akota Char Rasta,
+Vadodara - 390 020<br>
+Tel: 0265-2311284 / 2333197<br>
+Fax: 0265- 2333247<br>
+E-Mail : mail@industrial-enterprises.com<br>
+Mr. M. S. Shah
+
+            </div><div class="vizag box">
+                <h2>Address</h2>
+                CHAKRI INDUSTRIAL NEEDS
+Shop No. F-62,
+Sri Venkateswara General Market,
+Opp. R.T.C. Complex,
+Rajahmundry - 3<br>
+Telefax:   0883-2422641<br>
+Mob: 9849135766<br>
+E-Mail: chakri.indus@yahoo.co.in<br>
+Mr. S. K. Sridhar
+
+
+            </div><div class="ahmednagar box">
+                <h2>Address</h2>
+                V. M. TRADERS
+                1442, Dr. Zakhir Hussain Road,
+                At Post & Tal. Koparagoan - 423 601
+                Maharashtra<br>
+                Tel:  02423-223283<br>
+Fax: 02423-255037<br>
+E-Mail: vmtraderskop@gmail.com<br>
+Mr. Vaibhav S. Adhav
+
+
+
+            </div><div class="baroda box">
+                <h2>Address</h2>
+                SHREEJI ENTERPRISE
+27, Anamika Complex
+IPCL Road, GIDC Dahej 392 130
+Dist. Bharuch<br>
+Tel:  02641-256643<br>
+Mob: 09409072743<br>
+E-Mail: sales@shreejivalves.com
+
+
+            </div><div class="punjab box">
+                <h2>Address</h2>
+                SUPER TECH PUMPS & EQUIPMENTS
+                643, 2nd Floor, Kesho Ram Complex,
+                Sector - 45 C
+                Chandigarh - 160 047<br>
+                Tel:  0172-5079598<br>
+Mob: 9357198000 / 9216150507<br>
+E-Mail: sales@supertechpumps.com<br>
+Mr. Teer Karan Singh
+
+            </div><div class="chennai box">
+                HUSSAIN ENTERPRISES
+188 / New No. 268,
+Linghi Chetty Street
+Chennai 600 001<br>
+Tel:      044-25224108 / 25243336<br>
+Telefax: 044-42160108<br>
+E-Mail: sales@husssainenterprise.in<br>
+Mr. Abbas Merchant
+
+
+            </div><div class="cochin box">
+                <h2>Address</h2>
+                JAAP INDUSTRIAL SERVICES
+                XI/778-C, Near T.V. Tower,
+                Seaport-Airport Road,
+                Kakkanad, Cochin 682 037<br>
+                Tel:  0484- 2429240<br>
+Mob: 9447557276<br>
+E-Mail: jaapavj.solutions@gmail.com<br>
+Mr. Abraham V. John
+
+
+            </div><div class="delhi box">
+                <h2>Address</h2>
+                THE PROFESSIONAL ENGINEERS
+                368, Golden Jubilee Apartments,
+                Sector 11 Extn, Rohini,
+                New Delhi 110 085<br>
+                Tel:  011-27573135<br>
+Fax: 011-66173849<br>
+Mob: 9810188780<br>
+E-Mail: info@theprofessionalengineers.com<br>
+Mr. Mukesh Gupta
+
+
+            </div><div class="hubli box">
+                <h2>Address</h2>
+                VINAYAK ENTERPRISES
+#20, Patil Building,
+Nehru Nagar (extn.),
+Gadag Road,
+Hubli 580 020<br>
+Tel: 0836-2360540<br>
+Mob: 9448165745<br>
+E-Mail: mp_vinayak2003@yahoo.co.in<br>
+Mr. Mohan Patil
+
+
+            </div><div class="hydrabad box">
+                <h2>Address</h2>
+                KRISHNA TUBES & FITTINGS
+38, Lala Commercial Complex,
+Lala Temple Street,
+Ranigunj,
+Secunderabad 500 003<br>
+Tel: 040-27710237 / 66382713<br>
+Fax: 040-66382713 ; Mob : 9246500607<br>
+E-Mail: krishnatubes123@yahoo.co.in<br>
+Mr. Nitin Mangal
+
+
+
+            </div><div class="hydrabad box">
+                <h2>Address</h2>
+                SHIVA ENGINEERING WORKS
+                5-4-23 Distillery Road,
+                Ispat Bhawan,
+                Shop No. 14, Ranigunj,
+                Secunderabad 500 003<br>
+                Tel:  040-66336349 / 66333017<br>
+Mob: 9391052252<br>
+E-Mail: shivaengineeringworks@gmail.com<br>
+Mr. Rajesh Agarwal
+
+
+            </div><div class="jamshedpur box">
+                <h2>Address</h2>
+                HI - TECH CONTROL
+367 / 25, "A" Block, Tuliadungri,
+P.O. Golmuri
+Jamshedpur - 831 003<br>
+Tel:  0657-2341892<br>
+Fax: 0657-2341892<br>
+Mob: 9234866627<br>
+E-Mail: vinod@hitechcontrols.info<br>
+Mr. Vinod Kumar
+
+
+            </div><div class="bihar box">
+                <h2>Address</h2>
+                SWEETY ENTERPRISES
+Sweety Sadan, Shital Nagar,
+Khutari, Kahalgaon,
+Dist – Bhagalpur,
+Bihar - 813 2031<br>
+Mob: 9431203312<br>
+E-Mail: akhlesh69@gmail.com<br>
+Mr. Akhleshwarai Prasad
+
+            </div><div class="kokan box">
+                <h2>Address</h2>
+                TEJ ENGINEERING
+B-1006, BSEL Tech Park,
+Sector 30A, Plot 39/3,
+Vashi, Navi Mumbai - 400 705<br>
+Tel:  022-27814886 / 87<br>
+Fax: 022-27814888<br>
+E-Mail: sachin@tejengineering.com<br>
+
+Mr. Sachin Sawant
+
+            </div>
+            <div class="lucknow box">
+                <h2>Address</h2>
+                RASMAN TECHNOLOGIES PVT. LTD.
+126/31, 2nd Floor, Mahabir Plaza,
+B N  Road, Lal Bagh
+Lucknow - 226 001 (U.P.)<br>
+Tel:  0522-2622583 / 2622584<br>
+Fax: 0522-2622583  ; Mob: 9415021160<br>
+E-Mail: support@rasman.in / sales@rasman.in<br>
+
+Mr. Manish Lalchandani
+
+            </div>
+            <div class="mumbai box">
+                <h2>Address</h2>
+                VENUS TRADING COMPANY
+122 Narayan Dhuru Street,
+Mumbai 400 003<br>
+Tel: 022-23424647 / 23422192 / 23414365<br>
+Fax: 022-23424365<br>
+E-Mail: vinit@venustradingcompany.com<br>
+Mr. Vinit Kacheria
+
+
+            </div>
+            <div class="nasik box">
+                <h2>Address</h2>
+                KONARK ENGINEERS
+202 Ronak Heights, Opp. Nelson Hospital,
+RACCA Colony,
+Nasik - 422 002
+Maharashtra<br>
+Tel: 0253-2315576 / 2310695<br>
+E-Mail : konark@konarkengineers.com<br>
+Mr. Nitin Dhage
+
+
+            </div>
+            <div class="pune box">
+                <h2>Address</h2>
+                AUMA ENGINEERS
+Flat No. 2, Ground Floor,
+Anamika Housing Society, 1000/6 A, Navi Peth,
+Bala Raut Path, Near Datta Mandir,
+Pune - 411 030<br>
+Tel: 020-24539221 / 24539222<br>
+Fax: 020-24539223<br>
+E-Mail: atul@ameya-auma.in<br>
+Mr. Atul M. Desai
+
+
+            </div>
+            <div class="pune box">
+                <h2>Address</h2>
+                WARNS ENTERPRISES
+C-10 Paramnavnath Park,
+Madhavbaug Shivtirthnagar,
+Paud Road, Kothrud,
+Pune - 411 038<br>
+Mob : 9822015348<br>
+E-Mail: warnsenterprises.pune@gmail.com<br>
+Mr. Raman Deshpande
+
+
+
+            </div>
+            <div class="rudrapur box">
+                <h2>Address</h2>
+                RASMAN TECHNOLOGIES Pvt. Ltd.
+Opp. Green Ply Industries Limited,
+SIDCUL, IIE, Rudrapur - 263 153,
+U.S. Nagar, Uttarakhand<br>
+Mob: 9415021160<br>
+E-Mail: rudrapur@rasman.in<br>
+Mr. Manish Lalchandani
+
+
+
+            </div>
+            <div class="up box">
+                <h2>Address</h2>
+                AJAY AGENCIES
+30, Zilla Parishad Market,
+Near Mahavir Chowk,
+Muzaffarnagar - 251 001 (U.P.)<br>
+Tel: 0131-2622641 / 2622687<br>
+Fax: 0131-2622687 ; Mob: 9837033079<br>
+E-Mail : sales@ajayagencies.com<br>
+Mr. Sanjay Singhal
+
+
+            </div>
+            <div class="vijaywada box">
+                <h2>Address</h2>
+                INDIA PIPE & FITTING STORE
+12-6-15 Hart Street,
+Tarapet,
+Vijaywada 520 001<br>
+Tel:  0866-6669660<br>
+Fax: 0866-6669660<br>
+E-Mail: ipfs_pramod@yahoo.co.in<br>
+Mr. Pramod Agarwal
+
+
+            </div>
+            <div class="vizag box">
+                <h2>Address</h2>
+                RAJ INDUSTRIAL STORES
+32-37-16/5, 75 Feet Road
+Visakhapatnam - 530 001<br>   
+Tel:   0891-2506620<br>
+Fax:  0891-2567369<br>
+Mob: 9440087136<br>
+E-Mail : rajvizag@hotmail.com<br>
+Mr. Taher
+
+</div>
+            </header> <!-- end of ex-header -->
+            <!-- end of header -->
+        
+
+    
+
+    
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 Mr.Sandeep Garge All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    
+     
+            
+</body>
+</html>
